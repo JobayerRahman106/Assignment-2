@@ -1,16 +1,41 @@
 /* ========= Google Fonts ========= */
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
  
-  /* ========= Common Area ========= */
+/* ========= Common Area ========= */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
-  /* ========= Header Area Area ========= */
+.header-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn-primary{
+    padding: 12px 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+/* ========= Header Area ========= */
  .container{
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 100px;
   }
   nav{
     display: flex;
@@ -85,4 +110,152 @@ nav ul{
     z-index: 0;
 }
 
-    /* ========= Header Area Area ========= */
+/* ========= Popular Tour Area ========= */
+.popular-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.popular-text-area h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-text-area > p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.popular-text-area ul li p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.popular-text-area h5{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* ========= Destination Area ========= */
+.box-item-1{
+    display: flex;
+    gap: 25px;
+}
+.box-item-2{
+    display: flex;
+    gap: 25px;
+    margin: 25px 0;
+}
+.box-item-3{
+    display: flex;
+    gap: 25px;
+}
+/* ========= Why Us Area Area ========= */
+.box-item{
+    display: flex;
+    gap: 40px;
+}
+.box h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 15px 0;
+}
+.box p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+.box{
+    padding: 32px;
+}
+.box-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.box-3{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 25px;
+}
+/* ========= Deals & Discounts Area ========= */
+.contact{
+    display: flex;
+    gap: 25px;
+}
+.contact-right{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+}
+.contact-right h4{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.contact-right p{
+    color: #5A5A5D;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+form input{
+    width: 70%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+}
+.subscribe{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 0;
+}
+.contact-box{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: relative;
+    top: -170px;
+    right: -342px;
+    transform: rotate(-19.628deg);
+}
+.contact-box p{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.contact-box h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+/* ========= Destination Area ========= */
