@@ -1,0 +1,88 @@
+/* ========= Google Fonts ========= */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+ 
+  /* ========= Common Area ========= */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+  /* ========= Header Area Area ========= */
+ .container{
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+  }
+nav ul{
+    display: flex;
+    list-style: none;
+  }
+
+  nav ul li{
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  nav ul li:hover a{
+    color: #FF5400;
+    font-weight: 700;
+  }
+  .logo-section{
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+  .header-oranger{
+    color: #FF5400 !important;
+  }
+.banner-text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+.banner-text p{
+    max-width: 650px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+.banner{
+   background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 150px 0px;
+   border-radius: 16px;
+   position: relative;
+   z-index: 1;
+   
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: 0;
+}
+
+    /* ========= Header Area Area ========= */
