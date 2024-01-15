@@ -197,14 +197,19 @@ nav ul{
     margin-top: 25px;
 }
 /* ========= Deals & Discounts Area ========= */
-.contact{
+
+
+/* ========= Contact Area ========= */
+.contact-flex{
     display: flex;
+    justify-content: space-between;
     gap: 25px;
 }
 .contact-right{
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 20px;
+    overflow: hidden;
 }
 .contact-right h4{
     color: #131318;
@@ -243,8 +248,8 @@ form input{
     background: #FF5400;
     text-align: center;
     position: relative;
-    top: -170px;
-    right: -342px;
+    top: -175px;
+    right: -840px;
     transform: rotate(-19.628deg);
 }
 .contact-box p{
@@ -258,4 +263,42 @@ form input{
     font-size: 2rem;
     font-weight: 800;
 }
-/* ========= Destination Area ========= */
+/* ========= Footer Area ========= */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 75px 0;
+}
+.footer-description{
+    text-align: center;
+}
+.footer-description p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.footer-area ul li{
+    list-style: none;
+}
+.footer-area ul li a{
+    text-decoration: none;
+}
+hr{
+    width: 872px;
+    height: 1px;
+    margin: 30px auto;
+    background: rgba(19, 19, 24, 0.10);
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+.footer-area h5{
+    color: #131318;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+.footer-area{
+    margin-bottom: 0px !important;
+}
