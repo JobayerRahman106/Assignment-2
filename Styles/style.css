@@ -238,6 +238,9 @@ nav ul{
     grid-template-columns: 1fr;
     gap: 20px;
 }
+.iteam-box img{
+    width: 100%;
+}
 .deal-content{
     padding: 50px 80px;
     width: 400px;
@@ -441,4 +444,48 @@ hr{
 }
 .footer-area ul li {
     padding-right: 25px;
+}
+
+
+/* Responsive Area */
+/* mobile responsive */
+@media screen and (max-width:576px) {
+
+    .container{
+        max-width: 576px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-find{
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .popular-area{
+        flex-direction: column;
+    }
+    .box-item-1{
+        flex-direction: column;
+    }
+       
+    .box-item-2{
+        flex-direction: column;
+    }
+
+    .box-item-3{
+        flex-direction: column;
+    }
+    .box-item{
+        flex-direction: column;
+    }
+    .watch-area{
+        flex-direction: column;
+    }
+    .contact-flex{
+        flex-direction: column;
+    }
 }
