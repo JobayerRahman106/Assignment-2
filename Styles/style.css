@@ -109,7 +109,30 @@ nav ul{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     z-index: 0;
 }
-
+.banner-find{
+   max-width: 750px;
+   margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.where{
+    border-radius: 8px;
+    padding: 16px;
+    background: #FFF;
+}
+.where h4{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.find-now .btn-primary{
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}
 /* ========= Popular Tour Area ========= */
 .popular-area{
     display: flex;
@@ -158,6 +181,19 @@ nav ul{
     display: flex;
     gap: 25px;
 }
+
+.grid-img-one{
+    position: relative;
+}
+.grid-img-one h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
 /* ========= Why Us Area Area ========= */
 .box-item{
     display: flex;
@@ -197,6 +233,101 @@ nav ul{
     margin-top: 25px;
 }
 /* ========= Deals & Discounts Area ========= */
+.iteam-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.deal-content{
+    padding: 50px 80px;
+    width: 400px;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.deal-content ul li{
+    list-style: none;
+    display: inline-block;
+}
+.deal-content h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.deal-content p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+.deal-content h4{
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.deal-box-1{
+    position: relative;
+}
+.deal-one{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+.deal-box-2{
+    position: relative;
+}
+.deal-two{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.deal-box-3{
+    position: relative;
+}
+.deal-three{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+/* ========= Watch Bangladesh Area ========= */
+.watch-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.watch-text-area h2{
+    color: #131318;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+.watch-text-area > p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    padding: 25px 0;
+}
+.watch-text-area ul{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.watch-text-area ul li p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+
+
 
 
 /* ========= Contact Area ========= */
@@ -266,7 +397,7 @@ form input{
 /* ========= Footer Area ========= */
 footer{
     background: rgba(19, 19, 24, 0.05);
-    padding: 75px 0;
+    padding: 60px 0;
 }
 .footer-description{
     text-align: center;
@@ -301,4 +432,13 @@ hr{
 }
 .footer-area{
     margin-bottom: 0px !important;
+}
+.icon-footer{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+
+}
+.footer-area ul li {
+    padding-right: 25px;
 }
