@@ -5,7 +5,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
     font-family: 'Mulish', sans-serif;
 }
 .header-title{
@@ -513,5 +512,12 @@ hr{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .logo-section{
+        font-size: 1.2rem;
+        
+    }
+    .banner-text h1{
+        font-size: 2rem;
     }
 }
